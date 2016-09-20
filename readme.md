@@ -2,7 +2,7 @@
 ![bower](https://img.shields.io/bower/v/lg-pager.js.svg)
 ![npm](https://img.shields.io/npm/v/lg-pager.js.svg)
 
-# Video module for [lightgallery.js](http://sachinchoolur.github.io/lightgallery.js/)
+# Pager module for [lightgallery.js](http://sachinchoolur.github.io/lightgallery.js/)
 Full featured javascript gallery. Zero dependencies.
 ![lightgallery](https://raw.githubusercontent.com/sachinchoolur/lightGallery/master/lib/lg.png)
 
