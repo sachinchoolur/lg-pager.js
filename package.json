@@ -1,6 +1,6 @@
 {
   "name": "lg-pager.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Pager module for lightgallery.",
   "keywords": [
     "gallery",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/sachinchoolur/lg-pager.js/issues"
   },
-  "license": "Apache-2.0",
+  "license": "GPLv3",
   "author": {
     "name": "Sachin N",
     "email": "sachi77n@gmail.com",
@@ -54,6 +54,6 @@
     "build-min": "uglifyjs dist/lg-pager.js --comments '/@license/' -m screw_ie8=true -c screw_ie8=true,unused=false -o dist/lg-pager.min.js",
     "build-watch": "watchify src/lg-pager.js -s LgPager -t [babelify] -o dist/lg-pager.js -v",
     "dev": "watchify src/lg-pager.js -s LgPager -t [babelify] -o ../lightgallery.js/lightgallery/js/lg-pager.js -v",
-    "lint": "jshint src/*.js"
+    "lint": "jshint src"
   }
 }
